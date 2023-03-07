@@ -1,0 +1,162 @@
+/* *{
+    padding: 0; 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+    box-sizing: border-box; 
+    background-color: red;
+} 
+
+body{ 
+    background-image: url(images/);
+} 
+
+
+.hello{ 
+
+    border-style: solid; 
+    border-width: 5px;
+    border-color: white;
+    border-radius: 50px; 
+    border-top: 30px; 
+    border-bottom: 50px;  
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 150px; 
+    margin-left: 150px; 
+    margin-inline: 100px; 
+
+}
+
+
+.welcome{ 
+
+     border-style: double;
+     border-width: medium;
+     border-color: blue; 
+     border-left: 50px;  
+     border-right: 50px; 
+     margin-inline-end: 100px;
+
+}
+
+
+.jay{
+
+    border-style: dashed;
+    border-width: thick;
+    border-color: blueviolet;
+} 
+
+
+.blessing{ 
+
+    width: 300px; 
+    border: 15px solid green; 
+    padding: 50px;  
+    margin: 50px;
+} */
+
+
+
+.number1{ 
+    list-style: none; 
+    margin: 0; 
+    /* padding-left:400px; */
+    width: 100px;  
+    text-align: right;
+} 
+
+
+
+
+.number2{ 
+    list-style: none; 
+    margin: 0; 
+    /* padding-left:400px; */
+    width: 100px;  
+    text-align: right;
+}  
+/* 
+.number2 .contact-menu{ 
+
+    list-style:none;
+    position: absolute; 
+    display: inline-block;
+} */
+
+
+.number2 .contact-menu{ 
+
+color: black;
+padding: 10px;
+background-color: transparent;
+display: none;
+}
+
+
+.number2 .contact-menu li{
+    text-decoration: solid; 
+    list-style: none;
+    width: 70px;
+    text-align: left; 
+    padding: 10px;  
+    margin: 10px;
+    border-style: solid;
+    border: 2px solid black;
+}
+
+
+.number2 .contact-menu li:hover{ 
+
+    background-color: blue; 
+    color: white; 
+    text-align: left;
+}
+
+
+
+.number2:hover .contact-menu{ 
+    display: block; 
+    color: crimson;
+} 
+
+
+li a{
+    display: block; 
+    padding: 8px 15px; 
+    text-decoration: none; 
+   
+} 
+
+
+
+
+
+span{ 
+    background-color: blue;
+    color: white;
+}
+
+.dropdown{ 
+
+    position: relative; 
+    display: inline-block;
+} 
+
+.dropdown-content{ 
+
+
+    display: none;
+    position: absolute; 
+    background-color: transparent; 
+    padding: 10px;
+} 
+
+.dropdown:hover .dropdown-content{ 
+    display: block;
+} 
+
+.dropdown-content h1 a{ 
+ font-size: 20px;   
+}  
+

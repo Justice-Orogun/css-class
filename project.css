@@ -1,0 +1,96 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, Helvetica, sans-serif; 
+    box-sizing: border-box;
+} 
+
+nav .logo a { 
+    text-decoration: none;
+} 
+
+
+nav .navbar .first li{ 
+    display: inline; 
+    padding: 20px;
+    
+}
+
+nav .navbar .first{ 
+    text-align: right; 
+    
+}
+
+
+nav .navbar .first .dropdown{ 
+    float: right; 
+    overflow: hidden;
+    /* background-color: green; */
+}
+
+nav .navbar .first .dropdown-btn{ 
+    color: red; 
+    font-size: 17px; 
+    outline: none; 
+    background-color: inherit; 
+    margin: 0; 
+    /* padding: 10px;  */
+    border: 12px; 
+    border-style: solid;
+    cursor: pointer;
+    
+} 
+
+.dropdown:hover .dropdown-btn{  
+    background-color: red; 
+    color: black; 
+    border: 12px;
+
+} 
+
+
+
+
+
+nav .navbar .first .dropdown-menu{  
+
+    display: none; 
+    position: absolute; 
+    z-index: 1; 
+    background: transparent;
+
+}  
+
+
+nav .navbar .first .dropdown-menu
+ li a{  
+     float: none; 
+     color: black; 
+     text-decoration: none; 
+     display: block; 
+     text-align: left; 
+     
+
+ }
+nav .navbar .first .dropdown-btn:hover{ 
+    color: blue; 
+    background-color: red;
+} 
+
+nav .navbar .first .dropdown-menu li a{ 
+    background-color: transparent; 
+    font-size: 20px; 
+}
+
+nav .navbar .first .dropdown:hover .dropdown-menu{ 
+    display: block;
+}
+
+nav .navbar .first .dropdown-menu li a:hover{ 
+    color: white; 
+    background-color: blue; 
+    border: 5px solid;  
+    width: 100%; 
+    
+
+}
